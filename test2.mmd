@@ -1,0 +1,10 @@
+graph TB
+    subgraph A["Cloud"]
+        B["Internet"]
+    end
+    
+    subgraph VPC["VPC"]
+        C["Node1"]
+    end
+    
+    A <--> VPC
