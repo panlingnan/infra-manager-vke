@@ -46,15 +46,3 @@ variable "node_password" {
   sensitive   = true
   default     = "VmtlQDEyMzQ1Njc4" # Vke@12345678 in base64
 }
-
-variable "access_key" {
-  type        = string
-  description = "VolcEngine Access Key ID"
-  sensitive   = true
-}
-
-variable "secret_key" {
-  type        = string
-  description = "VolcEngine Secret Access Key"
-  sensitive   = true
-}
