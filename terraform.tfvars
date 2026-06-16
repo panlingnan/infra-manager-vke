@@ -1,2 +1,2 @@
 cluster_name = "enterprise-vke-demo"
-region       = "cn-beijing"
+region       = "cn-guilin"

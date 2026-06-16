@@ -19,7 +19,7 @@ variable "vpc_cidr" {
 variable "zones" {
   type        = list(string)
   description = "The availability zones for subnets"
-  default     = ["cn-guilin-boe-a", "cn-guilin-boe-b"]
+  default     = ["cn-guilin-a", "cn-guilin-c"]
 }
 
 variable "node_subnet_cidrs" {
